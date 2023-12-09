@@ -32,5 +32,9 @@ function Calcular() {
         mMedio.innerHTML = "m + m/2: <span class='resaltar'>" + (hidratacionBasal / 24 * 1.5).toFixed(1) + "</span> cc/hr"
     } else {
         resultadoOutput.innerHTML = "Por favor, ingrese un peso válido"
+        mantenimiento.innerHTML = ""
+        mMedio.innerHTML = ""
+            
     }
 }
+
